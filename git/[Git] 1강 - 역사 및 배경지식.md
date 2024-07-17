@@ -6,12 +6,12 @@
 
 ## 1️⃣ - 역사 및 배경지식
 
-![[Git] 1강 - 역사 및 배경지식 (1)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (1).png)
+![1](C:\Users\사용자\OneDrive\개발\강의자료\1.png)![[Git] 1강 - 역사 및 배경지식 (5)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (5).png)
 
-![[Git] 1강 - 역사 및 배경지식 (2)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (2).png)
+![2](C:\Users\사용자\OneDrive\개발\강의자료\2.png)
 
-![[Git] 1강 - 역사 및 배경지식 (3)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (3).png)
+![3](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/3.png)
 
-![[Git] 1강 - 역사 및 배경지식 (4)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (4).png)
+![4](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/4.png)
 
-![[Git] 1강 - 역사 및 배경지식 (5)](C:\Users\사용자\Downloads\[Git] 1강 - 역사 및 배경지식\[Git] 1강 - 역사 및 배경지식 (5).png)
+![5](C:\Users\사용자\OneDrive\개발\강의자료\5.png)
