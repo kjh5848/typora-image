@@ -6,22 +6,24 @@
 
 ## 2️⃣ - GitHub 이야기
 
-![[Git] 2강 - GitHub 이야기 (1)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (1).png)
+<hr>
 
-![[Git] 2강 - GitHub 이야기 (2)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (2).png)
+![[Git]2강-GitHub이야기(1)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/1.png)
 
-![[Git] 2강 - GitHub 이야기 (3)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (3).png)
+![[Git]2강-GitHub이야기(2)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(2).png)
+
+![[Git]2강-GitHub이야기(3)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(3).png)
+
+![[Git]2강-GitHub이야기(4)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(4).png)
+
+![[Git]2강-GitHub이야기(5)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(5).png)
+
+![[Git]2강-GitHub이야기(6)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/6.png)
 
 
 
-![[Git] 2강 - GitHub 이야기 (4)](C:\Users\사용자\OneDrive\개발\강의자료\[Git] 2강 - GitHub 이야기\[Git] 2강 - GitHub 이야기 (4).png)
+![7](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/7.png)
 
-![[Git] 2강 - GitHub 이야기 (5)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (5).png)
+![8](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/8.png)
 
-![[Git] 2강 - GitHub 이야기 (6)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (6).png)
-
-![[Git] 2강 - GitHub 이야기 (7)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (7).png)
-
-![[Git] 2강 - GitHub 이야기 (8)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (8).png)
-
-![[Git] 2강 - GitHub 이야기 (9)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git] 2강 - GitHub 이야기 (9).png)
+![9](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/9.png)
