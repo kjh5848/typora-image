@@ -8,17 +8,25 @@
 
 <hr>
 
-![[Git]2강-GitHub이야기(1)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/1.png)
+![1](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/1.png)
 
-![[Git]2강-GitHub이야기(2)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(2).png)
+![2](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/2.png)
 
-![[Git]2강-GitHub이야기(3)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(3).png)
 
-![[Git]2강-GitHub이야기(4)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(4).png)
 
-![[Git]2강-GitHub이야기(5)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/[Git]2강-GitHub이야기(5).png)
+![Git 2강 (3)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/Git 2강 (3).png)
 
-![[Git]2강-GitHub이야기(6)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/6.png)
+
+
+![Git 2강 (4)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/Git 2강 (4).png)
+
+
+
+
+
+
+
+![5](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/5.png)
 
 
 
@@ -27,3 +35,5 @@
 ![8](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/8.png)
 
 ![9](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/9.png)
+
+![3](C:\Users\사용자\Desktop\[Git]2강-GitHub이야기\3.png)
