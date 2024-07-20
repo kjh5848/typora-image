@@ -8,7 +8,7 @@
 
 > [!note]
 >
->  📋**이번 강의 명령어**
+>  📋**이번 강의 새로운 명령어**
 >
 > 1. clear
 
@@ -60,15 +60,15 @@
 
 > test2.txt 파일을 만들고 'git status'를 통해 변경감지된 파일을 확인해봅니다.
 
-![image-20240720180542047](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720180542047.png)
-
 > [!note]
 >
-> clear -> 코드를 깔끔하게 정리 할 수 있습니다.
+> ![image-20240720180542047](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720180542047.png)
+>
+> **clear -> 코드를 깔끔하게 정리 할 수 있습니다.**
 
 ![image-20240720181300203](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720181300203.png)
 
-> 'git commit -m"2. 두번째 사진" '을 하고 git log에서 보이는 첫 커밋과 두번째 커밋의 해시를 보여줍니다.
+> **'git commit -m"2. 두번째 사진" '**을 하고 **'git log'**에서 보이는 첫 커밋과 두번째 커밋의 해시를 보여줍니다.
 
 ![image-20240720181458654](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720181458654.png)
 
@@ -82,7 +82,7 @@
 
 - #### 현재 헤더는 어디를 가리키고 있나요?
 
-> 현재 헤더는 master라는 브랜치의 첫번째 커밋의 해시인 84a8(84a835f8e8e39b6b6d7329fe324a1444ec498b09)을 가리키고 있습니다.
+> 현재 헤더는 **master**라는 브랜치의 첫번째 커밋의 해시인 84a8(84a835f8e8e39b6b6d7329fe324a1444ec498b09)을 가리키고 있습니다.
 
 ### 그림2
 
@@ -116,11 +116,15 @@
 
 
 
-![image-20240720200401119](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720200401119.png)
+
 
 > [!important]
 >
-> **이제 git add . git commit 을 한 뒤에 master파일의 해시와 git log를 통해 3. 세번째 내용의 커밋 해시를 비교 해보세요.**
+> - **직접해보기**
+>
+> ![image-20240720200401119](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720200401119.png)
+>
+> **이제 'git add . '  -> ' git commit ' 을 한 뒤에 master파일의 해시와 git log를 통해 3. 세번째 내용의 커밋 해시를 비교 해보세요.**
 
 ![image-20240720200545423](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240720200545423.png)
 
