@@ -4,7 +4,7 @@
 
 <br>
 
-## 1️⃣3️⃣- fast forward 실습
+## 1️⃣4️⃣- fast forward 실습
 
 > [!note]
 >
@@ -95,7 +95,7 @@
 
 <br>
 
-- #### 브랜치를 main으로 옯기게 되면 어떤 커밋들이 남아있을까요
+- #### 브랜치를 main으로 옮기게 되면 어떤 커밋들이 남아있을까요
 
 ![image-20240722204233533](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240722204233533.png)
 
@@ -135,9 +135,9 @@
 >
 > 그럼 merge를 직접 해보겠습니다.
 
-![image-20240722212043065](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240722212043065.png)
+![image-20240722221426253](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240722221426253.png)
 
-> 이렇게 checkout main -> **'git merge topic'**을 하게되면 아까전 main브랜치에서는 회원가입, 로그인만 확인을 할 수 있었지만 현재 main 브랜치에서도 아이디중복체크.txt 파일을 확인할 수 있습니다.
+> 이렇게 checkout main -> **'git merge topic'**을 하게되면 메세지에서 **fast-forward**를 확인할 수 있고, 아까전  ex05 폴더에서 main브랜치에서만 회원가입, 로그인을 확인할 수 있었지만 현재 ex05 폴더에서 아이디중복체크.txt 파일을 확인할 수 있습니다.
 
 ![image-20240722212236902](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240722212236902.png)
 
