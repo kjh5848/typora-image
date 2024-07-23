@@ -11,9 +11,10 @@
 > 📋**이번 강의 새로운 명령어**
 >
 > 1. git stash
-> 2. git stash pop
-> 3. git stash apply
+> 2. git stash apply
+> 3. git stash pop
 > 4. git stash list
+> 5. git stash drop <stash 번호>
 
 ---
 
@@ -41,7 +42,27 @@
 
 - #### topic 브랜치에서 로그인 만드는 일을 하고 있었습니다. 그런데 상사가 main 브랜치에서 아이디 중복체크를 만들어라고 합니다. 이때는 어떻게 해야할까요?
 
-그림
+### 1. stash 사용하지 않을때
+
+![회원가입 (1)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/회원가입 (1).png)
+
+> stash를 사용하지 않을때는 워킹 디렉토리와 스테이징 영역에 계속 변경사항을 들고다니는 걸 확인할 수 있습니다.
+
+> [!important]
+>
+> Git은 브랜치를 전환할 때 워킹 디렉토리와 인덱스를 클린 상태로 만들고자 합니다. 하지만, 작업 중인 변경 사항(수정되었으나 커밋되지 않은 파일)은 워킹 디렉토리와 인덱스에 남아 있습니다. 따라서, 브랜치를 전환할 때 이러한 변경 사항이 자동으로 새로운 브랜치로 이동하게 됩니다.
+
+<br>
+
+### 2. stash 사용할때
+
+![회원가입 (3)](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/회원가입 (3).png)
+
+> stash 를 사용하면 스테싱영역에 워킹 디렉토리와 스테이징 영역의 변경사항들을 저장하여 브랜치를 이동하더라고 변경내역들이 스테싱에 보관되어있어 이동하지 않습니다.
+>
+> git stash apply는 stash를 적용을 해도 목록이 남아있는 명령어 입니다. 아래 실습을 통해 다른 명령어도 배워보겠습니다.
+
+<br>
 
 ## 3) stash 실습하기
 
@@ -54,24 +75,23 @@
   - git add . -> git commit -m"회원가입"
   - git checkout -b topic
   - touch 로그인.txt
+  - 내용 : 로그인 진행 중으로 저장
 
-#### ![image-20240723173458264](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723173458264.png)
+![image-20240723230514788](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723230514788.png)
 
-> 회원가입.txt 파일을 만들고 topic 브랜치를 생성하여 로그인.txt 파일을 만들어줍니다.  git status로 확인하면 워킹 디렉토리에 변경내역이 감지 되어있는걸 확인할 수 있습니다. 이제 main으로 checkout해서 다시 git status를 해보겠습니다.
-
-<br>
-
-![image-20240723173728187](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723173728187.png)
-
-> checkout main브랜치로 이동해서 status를 확인해보면 분명 main에서는 회원가입을   커밋하고 나서 topic에서 로그인.txt 파일을 만들었고 다시 main으로 왔는데 status에는 현재 main 워킹 디렉토리에서 변경내역을 확인할 수 있습니다.
-
-> [!important]
+> 회원가입.txt 파일을 만들고 topic 브랜치를 생성하여 로그인.txt 파일을 만들어줍니다.  git stash는 git이 관리하고   있는 파일의 변경사항들만 관리를 하기 때문에 **'git add .'** 를 해서 추가된 파일을 인덱스 영역에 추가합니다. 
 >
-> Git은 브랜치를 전환할 때 워킹 디렉토리와 인덱스를 클린 상태로 만들고자 합니다. 하지만, 작업 중인 변경 사항(수정되었으나 커밋되지 않은 파일)은 워킹 디렉토리와 인덱스에 남아 있습니다. 따라서, 브랜치를 전환할 때 이러한 변경 사항이 자동으로 새로운 브랜치로 이동하게 됩니다.
+> 그리고 내용에 **'로그인 진행중'**을 저장하고 **git status**로 확인하면 워킹 디렉토리에 변경내역이 감지 되어있는걸 확인할 수 있습니다. 이제 main으로 **checkout**해서 다시 **git status**를 해보겠습니다.
 
 <br>
 
-- #### 그럼 main에서 로그인을 커밋하면 어떻게 될까요?
+![image-20240723230648826](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723230648826.png)
+
+> checkout main브랜치로 이동해서 status를 확인해보면 분명 main에서는 회원가입을  커밋하고 나서 topic에서 로그인.txt 파일을 만들었고 다시 main으로 왔는데 status를 보면 topic이 아닌  main 워킹 디렉토리에서 변경내역을 확인할 수 있습니다.
+
+<br>
+
+- #### 이때 main에서 로그인을 커밋하면 어떻게 될까요? 그리고 topic 브랜치로 이동하면 어떻게 될까요?
 
 ![image-20240723174025987](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723174025987.png)
 
@@ -89,6 +109,68 @@
   - git checkout -b topic
   - touch 로그인.txt
 
-![image-20240723175048281](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723175048281.png)
+![image-20240723230514788](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723230514788.png)
 
-> 위에서 했던 상황고 동일하게 만들어줍니다. 이번에는 git stash를 사용해서 topic 워킹 디렉토리에 있는 로그인.txt를 스테싱 영역에 넣어서 
+![image-20240723231121093](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723231121093.png)
+
+> 위에서 했던 상황과 동일하게 만들어 줍니다. 이번에는 git stash를 사용해서 topic 워킹 디렉토리에 있는 로그인.txt를 스테싱 영역에 넣어준뒤 main 브랜치에 가서 아이디중복체크.txt를 만들고 커밋을 남겨보겠습니다. 
+>
+> git status를 보면 지금 new file(로그인.txt)를 알 수 있고 modified로 수정된 사항이 있는걸 알 수 있습니다.
+
+<br>
+
+![image-20240723231405547](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723231405547.png)
+
+> topic에서 **git stash**  한 순간 로그인.txt 파일이 스테싱 영역에 옮겨졌고, main으로 checkout을 해서 status를 하니   변경사항이 없다고 나옵니다.  
+
+<br>
+
+- #### 그럼 이제 main에서 아이디중복체크를 만들고 다시 topic 브랜치로 넘어가서 스테싱에 있는 걸 불러오도록 하겠습니다.
+
+![image-20240723233738813](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723233738813.png)
+
+> 이렇게 아이디 중복체크.txt 파일을 log에 남겼고, status는 깔끔합니다. 이제 topic 브랜치에서 stash에 있는 변경사항을 다시 불러와서 작업을 마무리 해보고 여러 명령어를 사용해보겠습니다.
+
+<br>
+
+>[!tip]
+>
+>#### stash 명령어 종류
+>
+>- git stash apply
+>  - stash를 적용하고 목록에도 남긴다.
+>- git stash pop
+>  - stash를 적용하고 목록에서 제거
+>- git stash list
+>  - stash 목록보기
+>- git stash drop <stash 번호>
+
+<br>
+
+### 3. git stash apply
+
+![image-20240723235029901](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723235029901.png)
+
+> topic에서 git stash apply를 하면 스태싱영역에 있는 목록을 워킹 디렉토리에 불러와서 적용합니다. 
+
+<br>
+
+![image-20240723235316792](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723235316792.png)
+
+> 커밋을 하고 status도 깔끔합니다. git stash list를 하면 stash하면 apply를 했기 때문에 목록에 남아 있는 걸 확인할 수 있습니다.
+
+<br>
+
+### 4. git stash pop
+
+![image-20240723235633251](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240723235633251.png)
+
+> pop을 한 후 stash list를 살펴보면 스테싱영역에 아무것도 없는걸 확인할 수 있습니다.
+
+<br>
+
+### 5. git stash drop
+
+![image-20240724000042949](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240724000042949.png)
+
+> list로 stash한 목록을 보고 인덱스 번호를 확인한 뒤 git stash drop 할때 원하는 인덱스 번호를 적어주면 해당 인덱스 번호의 stash가 사라지는 걸 확인할 수 있습니다.
