@@ -127,9 +127,13 @@
 
 >  [!tip]
 >
-> ![image-20240724022018600](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240724022018600.png)
+>  ![image-20240724022018600](https://raw.githubusercontent.com/kjh5848/typora-image/main/image/image-20240724022018600.png)
 >
-> 브랜치도 어느정도 정해져 있는 규칙들이 있습니다. 하지만 저희는 main, dev, feature 대신 topic을 사용해서 협업을 하도록 하겠습니다. 그리고 topic으로 브랜치를 만들때는 (기능이름 - topic)으로 만들겠습니다.
+>  브랜치도 어느정도 정해져 있는 규칙들이 있습니다. 하지만 저희는 main, dev, feature 대신 topic을 사용해서 협업을 하도록 하겠습니다. 그리고 topic으로 브랜치를 만들때는 (기능이름 - topic)으로 만들겠습니다. 
+>
+>  만약 팀원들이 여러명이라면 각 팀원들의 이니셜을 붙여도 좋습니다. 예를 들면  제 이니셜이 kjh이면 kjh/login-topic 또는 kjh/login/topic 등 다양한 네이밍 규칙을 만들어 볼 수 있습니다.
+>
+>   소규모로 하는 팀  프로젝트의 경우 다양한 브랜치 네이밍을 만들고 적용해보면 불필요한 것과 필요한 것들에 대해서 알 수가 있으니 다양한 브랜치 네이밍을 만들어 보고 좋은 점들을 알아가 보세요,
 
 <br>
 
